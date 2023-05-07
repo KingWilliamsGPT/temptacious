@@ -438,6 +438,8 @@ class Parser:
 
 
 class Template:
+    """The template is all you need from this library call render() to render with a context"""
+    
     def __init__(self, template_string):
         self.template_string = str(template_string)
         
@@ -452,26 +454,35 @@ class Template:
         return ''.join([node.render(context) for node in nodes])
 
 
-template = (
-    '''\
-    this is a {{ variabvarle }}
-        {% if online %}
-            on line
-            {%else%}
-            not online
-        {% endif %}
-        
-        {% for i in x%}
-            the current item is {{ i }}
-        {% endfor %}
-    '''
-)
-context = {
-            'variable': 'value',
-            'online': True, # times
-            'iswilliams': True,
-            'x': ['beans', 'tomato', 'handsome'],
-        }
-# print(template.render(context))
-#tk = Tokeniser(template).tokenise()
-#pprint(Parser(tk).parse())
+
+
+# demo
+
+
+def main():
+    template = Template(
+        '''\
+Hi I'm' {{ variable }}
+You are {% if online %}online {% else %}not online {% endif %}
+
+Here's a loop
+{% for i in x %}
+    the current item is {{ i }}
+{% endfor %}
+        '''
+    )
+
+    context = {
+                'variable': 'Temptacious',
+                'online': True, # times
+                'iswilliams': True,
+                'x': ['beans', 'tomato', 'handsome'],
+            }
+
+    print(template.render(context))
+    # tk = Tokeniser(template).tokenise()
+    # pprint(Parser(tk).parse())
+
+
+if __name__ == '__main__':
+    main()
