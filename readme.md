@@ -12,8 +12,7 @@ Some of the key features of Temptacious include:
 - A simple and intuitive syntax that's easy to learn and use.
 - Support for variables, loops, conditionals, and other common programming constructs.
 - Easy integration with existing Python projects.
-- Lightweight and fast, with minimal overhead and excellent performance.
-- Flexible and customizable, with support for custom filters, tags, and extensions.
+- Flexible and customizable, will support custom filters, tags, and extensions, eventualy.
 
 ## Getting Started
 
@@ -23,7 +22,7 @@ To get started with Temptacious, simply install it using pip:
 pip install temptacious
 ```
 
-Once you've installed Temptacious, you can start using it in your Python projects. Here's a quick example:
+Once you've installed Temptacious, you can start using it in your Python projects or downloaded it [here](https://pypi.org/project/temptacious/1.0/) at pypi. Here's a quick example:
 
 ```python
 from temptacious import Template
