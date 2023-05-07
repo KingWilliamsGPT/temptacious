@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: temptacious
+Version: 1.0
+Summary: Lightweight template engine
+Home-page: https://github.com/KingWilliamsGPT/temptacious
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Williams Samuel
+Author-email: williamusanga22@gmail.com
+License: MIT
+Keywords: template engine,template,engine,python,django,jinja
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

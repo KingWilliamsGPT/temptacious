@@ -1,0 +1,8 @@
+setup.py
+temptacious/__init__.py
+temptacious/base.py
+temptacious.egg-info/PKG-INFO
+temptacious.egg-info/SOURCES.txt
+temptacious.egg-info/dependency_links.txt
+temptacious.egg-info/requires.txt
+temptacious.egg-info/top_level.txt
