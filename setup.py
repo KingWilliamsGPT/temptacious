@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
   name = 'temptacious',
   packages = ['temptacious'],
-  version = '1.0',
+  version = 'v1.0',
   license='MIT',
   description = 'Lightweight template engine',
   author = 'Williams Samuel',
   author_email = 'williamusanga22@gmail.com',
   url = 'https://github.com/KingWilliamsGPT/temptacious',
-  download_url = 'https://github.com/KingWilliamsGPT/temptacious/dist/temptacious-1.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/KingWilliamsGPT/temptacious/archive/refs/tags/v1.0.tar.gz',    # I explain this later on
   keywords = ['template engine', 'template', 'engine', 'python', 'django', 'jinja'],
   install_requires=[            # I get to this in a second
         #  dependencies: none for now
